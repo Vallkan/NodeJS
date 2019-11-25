@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "node task1-1.js",
+    "test2": "babel-node task1-2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vallkan/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vallkan/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Vallkan/NodeJS#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
